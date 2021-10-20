@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 
 const name = 'George Bush';
 const element = <h1>Hello, {name}</h1>;
