@@ -9,7 +9,7 @@ const user = {
 }
 
 function formatname(user){
-  return user.firstname + ' ' + user.lastname;
+  return user.firstname + ' and  ' + user.lastname;
 }
 
 const name = 'George Bush';
