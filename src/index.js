@@ -1,13 +1,9 @@
-import { render } from 'react-dom'
-import Example from "./app/Example"
-
-// function App() {
-// 	return (
-// 		<div className="App" style={{padding:0}}>
-// 			<Mainapp />
-// 		</div>
-// 	)
-// }
-
-const rootElement = document.getElementById('root')
-render(<Example />, rootElement)
+import AppDragDropDemo from './AppDragDropDemo';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './App.css';
+//
+ReactDOM.render(
+  <AppDragDropDemo />,
+  document.getElementById('root')
+);
